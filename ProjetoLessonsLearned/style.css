@@ -1,0 +1,157 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: rgb(253, 251, 251);
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 65px;
+  /* border: 2px solid red; */
+  border-radius: 20px;
+  background-color: #21a179;
+  z-index: 1;
+}
+
+#titulo {
+  text-align: start;
+  margin-top: 0;
+  padding: 5px;
+  font-weight: 550;
+  font-size: 18pt;
+  line-height: 18pt;
+  background-color: #1c8765;
+  color: rgb(253, 251, 251);
+  border-radius: 0;
+  display: block;
+  /* border: 2px solid red; */
+}
+
+.menu-header {
+  display: inline-block;
+  position: inherit;
+  top: 35px;
+  left: 10px;
+  font-weight: 620;
+  padding: 5px;
+  color: #A3E7FC;
+  /* border: 2px solid red; */
+}
+
+#link-github {
+  color: #A3E7FC;
+  text-decoration: none;
+  padding-right: 20px;
+}
+
+#link-linkedin {
+  text-decoration: none;
+  padding-right: 20px;
+  color: #A3E7FC;
+}
+
+#link-trybe {
+  text-decoration: none;
+  color: #A3E7FC;
+}
+
+#conteudo_principal {
+  margin-top: 5em;
+  padding: 20px;
+  /* border: 2px solid blue; */
+}
+
+#minha_foto {
+  float: left;
+  margin-right: 20px;
+  border-radius: 15%;
+  width: 250px;
+  border: 5px solid #F79256;
+}
+
+.section_lista {
+  padding: 5px;
+  position: relative;
+  border: 2px dashed green;
+  margin: auto auto auto 265px;
+  max-width: 80%;
+  max-height: 250px;
+  text-align: end;
+  display: block;
+  margin-bottom: 30px;
+}
+
+#tabela {
+  position: relative;
+  top: 20px;
+  text-decoration: underline;
+  font-weight: 500;
+  font-size: 20px;
+  color: #361C1C;
+}
+
+.lista {
+  position: inherit;
+  bottom: 0.5vw;
+  text-align: start;
+  display: inline-block;
+  margin: auto;
+  min-width: none;
+  max-width: 70%;
+  width: fit-content;
+  height: auto;
+  font-size: 1.2vw;
+  /* border: 2px solid red; */
+}
+
+.lista li {
+  min-width: 10%;
+  max-width: 100%;
+  width: auto;
+  font-size: inherit;
+}
+
+#artigo {
+  padding: 10px;
+  /* border: 2px solid red; */
+}
+
+.lado-esquerdo {
+  display: inline-block;
+  /* margin-right: 40%; */
+  /* margin-top: 3%; */
+  /* margin: auto; */
+  text-align: center;
+  margin: 10px;
+  width: 50%;
+  padding: 10px;
+  border: 2px dotted #361C1C;
+}
+
+#conteudo_texto {
+  text-align: center;
+  max-width: 100%;
+  font-size: 90%;
+}
+
+.lado-direito {
+  display: inline-block;
+  /* margin-left: 60%; */
+  /* margin-top: 3%; */
+  margin: 10px;
+  width: 40%;
+  padding: 10px;
+  border: 2px dotted #361C1C;
+}
+
+#conteudo_passagem {
+  text-align: center;
+  max-width: 100%;
+  font-size: 90%;
+}
+
+#rodape {
+  padding: 10px;
+}
