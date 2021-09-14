@@ -75,7 +75,7 @@ html , body {
 }
 
 .selected {
-  border: 3px inset red;
+  border: 4px inset red;
 }
 
 #pixel-board {
