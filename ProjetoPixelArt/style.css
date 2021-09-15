@@ -87,8 +87,8 @@ html , body {
 }
 
 #board-size {
-  width: 8vw;
-  height: 2vw;
+  width: 60%;
+  height: 5%;
   position: relative;
   bottom: 6px;
   left: 2px;
@@ -99,7 +99,7 @@ html , body {
 #generate-board {
   position: relative; 
   left: 5%;
-  width: 5vw;
+  width: 30%;
   bottom: 7px;
 }
 
