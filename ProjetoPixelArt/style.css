@@ -44,6 +44,9 @@ html , body {
   background-color: black;
 }
 
+#white {
+  background-color: white;
+}
 
 #button-container {
   display: flex;

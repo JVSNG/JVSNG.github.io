@@ -60,7 +60,7 @@ function checaValorTamanho() {
 
 function gerarCores() {
   let cores = document.querySelector('#color-palette').children;
-  for (let index = 1; index < cores.length; index += 1){  
+  for (let index = 2; index < cores.length; index += 1){  
     let randomColor = Math.floor(Math.random()*16777215).toString(16);
     cores[index].style.backgroundColor = '#' + randomColor;
   }
