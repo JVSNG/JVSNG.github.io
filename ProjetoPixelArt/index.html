@@ -14,42 +14,24 @@
     <h1 id="title">Paleta de Cores</h1>
     <nav id="color-palette">
         <div class="color" id="black"></div>
-        <div class="color" id="blue"></div>
-        <div class="color" id="red"></div>
-        <div class="color" id="green"></div>
+        <div class="color" id="color2"></div>
+        <div class="color" id="color3"></div>
+        <div class="color" id="color4"></div>
+        <div class="color" id="color5"></div>
+        <div class="color" id="color6"></div>
     </nav>
     <div id="button-container">
         <button id="clear-board">Limpar</button>
+        <button id="generate-color">Gerar Cores</button>
     </div>
     <section id="main-container">
+        <div id="input-container">
+            <h2 id="input-title">Escolha o tamanho do tabuleiro:</h2>
+            <input type="number" id="board-size" min="1" max="50" minlength="1" placeholder="Ex.: 5 = 5x5">
+            <button id="generate-board">Gerar</button>
+        </div>
         <div id="board-container">
-            <div id="pixel-board">
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>            
-            </div>
+            <div id="pixel-board"></div>
         </div>
     </section>
 </body>

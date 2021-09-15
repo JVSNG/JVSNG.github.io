@@ -38,20 +38,24 @@ html , body {
   margin: 5px;
 }
 
-#blue {
-  background-color: #5386e4;
-}
-
-#red {
-  background-color: #931621;
-}
-
-#green {
-  background-color: #315c2b;
-}
-
 #black {
   background-color: black;
+}
+
+
+#button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#generate-color {
+  position: relative;
+  margin-left: 5px;
+}
+
+.selected {
+  border: 4px inset red;
 }
 
 #main-container {
@@ -63,19 +67,42 @@ html , body {
   background-color: gray;
 }
 
-#button-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+#input-container {
+  position: relative;
+  bottom: 35%;
+  right: 41%;
+  border: 3px double black;
+  padding: 5px;
+  background-color: cadetblue;
+}
+
+#input-title {
+  font-size: medium;
+  font-family: Glory, sans-serif;
+  position: relative;
+  bottom: 5px;
+}
+
+#board-size {
+  width: 8vw;
+  height: 2vw;
+  position: relative;
+  bottom: 6px;
+  left: 2px;
+  font-size: medium;
+  text-align: center;
+}
+
+#generate-board {
+  position: relative; 
+  left: 5%;
+  width: 5vw;
+  bottom: 7px;
 }
 
 #board-container {
   border: 6px solid black;
   position: absolute;
-}
-
-.selected {
-  border: 4px inset red;
 }
 
 #pixel-board {
