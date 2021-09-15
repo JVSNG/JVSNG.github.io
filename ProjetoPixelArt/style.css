@@ -1,6 +1,7 @@
 html , body {
 
   /* height: 100%; */
+  background-color: grey;
   margin: 0;
 }
 
@@ -22,6 +23,7 @@ html , body {
 #color-palette {
 
   /* border: 2px solid red; */
+  background-color: white;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -47,6 +49,8 @@ html , body {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: white;
+  padding-bottom: 10px;
 }
 
 #generate-color {
@@ -60,7 +64,7 @@ html , body {
 
 #main-container {
   display: flex;
-  height: 72.6%;
+  height: 100%;
   margin-top: 10px;
   align-items: center;
   justify-content: center;
@@ -69,11 +73,10 @@ html , body {
 
 #input-container {
   position: relative;
-  bottom: 35%;
-  right: 41%;
   border: 3px double black;
   padding: 5px;
   background-color: cadetblue;
+  bottom: 42%
 }
 
 #input-title {
@@ -103,6 +106,7 @@ html , body {
 #board-container {
   border: 6px solid black;
   position: absolute;
+  top: 60%;
 }
 
 #pixel-board {
