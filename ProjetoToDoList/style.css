@@ -58,3 +58,8 @@
   background-color: #e2f4e2;
   color: #4cb944;
 }
+
+.box {
+  /* display: flex;
+  flex-wrap: wrap; */
+}
